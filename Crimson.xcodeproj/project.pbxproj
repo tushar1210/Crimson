@@ -12,6 +12,11 @@
 		785DD9DB2220889A00F93BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785DD9D92220889A00F93BBE /* Main.storyboard */; };
 		785DD9DD2220889C00F93BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785DD9DC2220889C00F93BBE /* Assets.xcassets */; };
 		785DD9E02220889C00F93BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785DD9DE2220889C00F93BBE /* LaunchScreen.storyboard */; };
+		785DD9E8222096F100F93BBE /* Q1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD9E7222096F100F93BBE /* Q1VC.swift */; };
+		785DD9EA2220B4A800F93BBE /* Q2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD9E92220B4A800F93BBE /* Q2VC.swift */; };
+		785DD9EC2220B4BC00F93BBE /* Q3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD9EB2220B4BC00F93BBE /* Q3VC.swift */; };
+		785DD9EE2220B4C700F93BBE /* Q4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD9ED2220B4C700F93BBE /* Q4VC.swift */; };
+		785DD9F02220B4D100F93BBE /* Q5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DD9EF2220B4D100F93BBE /* Q5VC.swift */; };
 		E1210EE6B8D140E49BC9B0F1 /* Pods_Crimson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A9CA918B1DADFFA6735E73 /* Pods_Crimson.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +31,11 @@
 		785DD9DC2220889C00F93BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785DD9DF2220889C00F93BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785DD9E12220889C00F93BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785DD9E7222096F100F93BBE /* Q1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1VC.swift; sourceTree = "<group>"; };
+		785DD9E92220B4A800F93BBE /* Q2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2VC.swift; sourceTree = "<group>"; };
+		785DD9EB2220B4BC00F93BBE /* Q3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q3VC.swift; sourceTree = "<group>"; };
+		785DD9ED2220B4C700F93BBE /* Q4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q4VC.swift; sourceTree = "<group>"; };
+		785DD9EF2220B4D100F93BBE /* Q5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q5VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +83,13 @@
 				785DD9D52220889A00F93BBE /* AppDelegate.swift */,
 				785DD9D72220889A00F93BBE /* ViewController.swift */,
 				785DD9D92220889A00F93BBE /* Main.storyboard */,
-				785DD9DC2220889C00F93BBE /* Assets.xcassets */,
 				785DD9DE2220889C00F93BBE /* LaunchScreen.storyboard */,
+				785DD9E7222096F100F93BBE /* Q1VC.swift */,
+				785DD9E92220B4A800F93BBE /* Q2VC.swift */,
+				785DD9EB2220B4BC00F93BBE /* Q3VC.swift */,
+				785DD9ED2220B4C700F93BBE /* Q4VC.swift */,
+				785DD9EF2220B4D100F93BBE /* Q5VC.swift */,
+				785DD9DC2220889C00F93BBE /* Assets.xcassets */,
 				785DD9E12220889C00F93BBE /* Info.plist */,
 			);
 			path = Crimson;
@@ -202,8 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785DD9F02220B4D100F93BBE /* Q5VC.swift in Sources */,
+				785DD9E8222096F100F93BBE /* Q1VC.swift in Sources */,
+				785DD9EA2220B4A800F93BBE /* Q2VC.swift in Sources */,
+				785DD9EC2220B4BC00F93BBE /* Q3VC.swift in Sources */,
 				785DD9D82220889A00F93BBE /* ViewController.swift in Sources */,
 				785DD9D62220889A00F93BBE /* AppDelegate.swift in Sources */,
+				785DD9EE2220B4C700F93BBE /* Q4VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +373,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = Crimson/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ADG.Crimson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -369,7 +392,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = Crimson/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ADG.Crimson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
